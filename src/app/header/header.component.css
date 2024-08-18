@@ -1,15 +1,15 @@
 :host {
   display: block;
   position: fixed;
-  top: 0;
+  top: 0; /* Устанавливаем положение сверху */
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1000; /* Убедитесь, что у хедера высокий z-index */
   background-color: #001f3f; /* Темно-синий цвет для фона хедера */
-  color: white;
-  padding: 10px 20px;
+  color: white; /* Цвет текста для хедера */
+  padding: 14px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 0;
+  margin: 0; /* Убираем возможные отступы */
   box-sizing: border-box;
 }
 
@@ -29,14 +29,14 @@
 .youtube-link {
   display: flex;
   align-items: center;
+  color: white;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 20px; /* Добавлено для YouTube ссылки */
 }
 
 .youtube-logo {
-  height: 24px;
-  width: 24px;
+  height: 24px; /* Высота логотипа YouTube */
+  width: 24px; /* Ширина логотипа YouTube */
   display: inline-block; /* Убедитесь, что элемент отображается */
+  margin-left: 40px; /* Смещение логотипа */
 }
-
-
